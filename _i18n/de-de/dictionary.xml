@@ -398,12 +398,6 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="d69dddad3d38a1500a52e7e599cb94df" category="paragraph">Nach dem Neubooten eines Node muss der Partner die Daten synchronisieren, bevor er den Storage zurückgeben kann. Die Zeit, die für die Neusynchronisierung der Daten benötigt wird, hängt von der Menge der Daten ab, die von Clients geschrieben wurden, während der Node während des Giveback ausfällt und die Datenschreibgeschwindigkeit vorliegt.</block>
   <block id="7b9e5415e02ff7ad5eaae61345740517" category="inline-link">Funktionsweise von Storage in einem Cloud Volumes ONTAP HA-Paar in Google Cloud</block>
   <block id="81a074db33c6f62838933c92142f16d6" category="paragraph"><block ref="f969ecf664fae2f86e88c525c7dd7acf" category="inline-link-rx"></block>.</block>
-  <block id="b56253bf92505bda20b38657c778bccf" category="doc">Der Seitentitel wird hier angezeigt</block>
-  <block id="5d9328ee3f628e51f1a4f871ccff7313" category="paragraph">Verwenden Sie diese Vorlage für Artikel, Themen, wie auch immer Sie sie nennen. Die Datei Index.adoc hat nicht die richtigen Schlüsselwörter für eine Artikelseite und die Verwendung als Vorlage kann später zu Problemen bei der Veröffentlichung führen.</block>
-  <block id="26739de98ff2a207a5c145caf27c2508" category="admonition">Löschen Sie diese Datei vor der ersten Veröffentlichung, da die Datei veröffentlicht wird, auch wenn sie nicht mit der Sidebar verknüpft ist. Nachdem Sie ein paar Artikel erstellt haben, können Sie sie stattdessen als Starter verwenden.</block>
-  <block id="38b255c5af258b1f086fb7c9aa4f252c" category="paragraph">Wenn sich Ihre Artikel in einem Unterordner befinden, müssen Sie zwei Anpassungen an der oben gezeigten Notation vornehmen:</block>
-  <block id="df25e29acec650a07b41041946158355" category="list-text"><block ref="abc9d0bfc8d5688ddd4babf6a5402ee4" prefix="" category="inline-code"></block></block>
-  <block id="97df5ffadc97296dc727ffddf2d2e1fe" category="list-text"><block ref="ff695bd1637208b4929c7ae2085cd551" prefix="" category="inline-code"></block></block>
   <block id="e70747c71702cdc100bd5f592ed452be" category="summary">Für Cloud Volumes ONTAP sind verschiedene Lizenzierungsoptionen verfügbar. Mit jeder Option können Sie eine Konfiguration wählen, die Ihren Anforderungen entspricht.</block>
   <block id="be02aeef4770b69cefbe40935aba2797" category="doc">Lizenzierung für Cloud Volumes ONTAP</block>
   <block id="17ed68bac4a851f70f23adb17408c559" category="summary">Cloud Volumes ONTAP 9.14.0 enthält eine neue Verbesserung.</block>
@@ -729,4 +723,12 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="5680c249ee040de9c43f982996ed2a24" category="list-text">System Manager und die ONTAP CLI ab Cloud Volumes ONTAP 9.12.1 P2 und 9.13.0 P2</block>
   <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">BlueXP ab Cloud Volumes ONTAP 9.13.1</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
+  <block id="b8669dd4be6e14a3f0a4fcc02dda79a3" category="section-title">9.14.0 P2 (1. April 2024)</block>
+  <block id="8a2e35e048f2fec22cf01ac1e91ac6e6" category="inline-link">Upgrade von einem Image, das über eine URL verfügbar ist</block>
+  <block id="17080ce14b30f5e8925e51145d5b1032" category="paragraph">Der 9.14.0 P2 Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud Provider verfügbar. Dieser Patch ist nur für manuelle Upgrades verfügbar. Siehe<block ref="616322dd48f91de2669b4ad12a0e820d" category="inline-link-rx"></block>.</block>
+  <block id="ce5d0c77f167b881391469fc27895727" category="inline-link-macro">Zeigen Sie die Liste der im P2-Patch fixierten Fehler an</block>
+  <block id="d01dcd7dd0571bc5938e104d16f1b241" category="paragraph"><block ref="35ccd464ef6dcc704dd5444888751abc" category="inline-link-macro-rx"></block> (Anmeldung auf der NetApp Support Site erforderlich).</block>
+  <block id="8c9e25527d8d001ea4984375636533f6" category="paragraph">Dies ist der letzte Patch für diese Version. Wir empfehlen Ihnen, ein Upgrade von Cloud Volumes ONTAP 9.14.0 auf 9.14.1 durchzuführen.</block>
+  <block id="3f93d29b3f8dc957c8b9ced853857b76" category="inline-link">Versionshinweise zu Cloud Volumes ONTAP 9.14.1</block>
+  <block id="04288d19cfed9e5f660c0fbfee97b713" category="paragraph"><block ref="04288d19cfed9e5f660c0fbfee97b713" category="inline-link-rx"></block></block>
 </blocks>
