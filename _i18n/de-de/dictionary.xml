@@ -52,7 +52,6 @@
   <block id="3ef8b2478ab52b4e7c7dd18d32c5bf06" category="list-text">Verbesserte Schreib-Performance wird bei Verwendung von ausgewogenen persistenten Festplatten und persistenten Performance-Festplatten (SSD) aktiviert.</block>
   <block id="30749b02bc62d931d770e6c719254e7b" category="list-text">Die BlueXP-Schnittstelle zeigt einen weiteren unterstützten Maschinentyp für Standard und BYOL an: n1-highmem-4. Dieser Maschinentyp ist jedoch nicht für Produktionsumgebungen gedacht. Wir haben es nur für eine bestimmte Laborumgebung zur Verfügung gestellt.</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes Regionen Weltweit</block>
-  <block id="7093754c2bc2f151c7deef337385971a" category="list-text">Informationen über die regionale Unterstützung von Google Cloud-Plattformen finden Sie unter<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="e7089e61c962cfdae0de5b1d0748b6f2" category="list-text">Cloud Volumes ONTAP kann auf einer reservierten oder On-Demand-VM-Instanz beim Cloud-Provider ausgeführt werden. Lösungen, die andere VM-Instanztypen nutzen, werden nicht unterstützt.</block>
   <block id="8e8865183ac138d80e1eac90bc023d09" category="list-text">Ab der Cloud Volumes ONTAP Softwareversion 9.13.0 sind für die folgenden HA-Paar-Bereitstellungsinstanzen _Flash Cache_, hohe Schreibgeschwindigkeit und eine höhere maximale Übertragungseinheit (MTU) von 8,896 Byte verfügbar:</block>
   <block id="f23467ff8f84fc95ca2baa4b362c7865" category="inline-link">Starten eines HA-Paars in Google Cloud</block>
@@ -345,7 +344,6 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="0066e8873a17823db601b98ebbc37dd2" category="section-title">HA-Einschränkungen</block>
   <block id="b1969fa9ebe4dd2003618adb77082978" category="paragraph">HA-Paare werden in einigen Regionen nicht unterstützt.</block>
   <block id="d91c9372e1fdf74d651217f1a36e518b" category="inline-link">Zeigen Sie die Liste der unterstützten Azure Regionen an</block>
-  <block id="1e6996b39daf779b565c50c8411fbc8d" category="paragraph"><block ref="8e36f0f32d75ebd3c7851e726c538544" category="inline-link-rx"></block>.</block>
   <block id="30af1a6878bac3a7aaed5d0e64e7b511" category="paragraph">Cloud Volumes ONTAP bietet verschiedene Lizenzoptionen, mit denen Sie ein Nutzungsmodell wählen können, das Ihren Anforderungen entspricht.</block>
   <block id="f008ecd5469e24eee31eb4e2e4a1e23f" category="paragraph">Die folgenden Lizenzierungsoptionen stehen für Neukunden zur Verfügung.</block>
   <block id="19bcaffbe8361f9d452beabc8065f223" category="list-text">Kapazitätsbasierte Lizenzpakete</block>
@@ -539,7 +537,6 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="9de28fbf6817cd511eb799f9575b611d" category="list-text">Wenn Sie einen EC2-Instanztyp auswählen, können Sie angeben, ob es sich um eine freigegebene Instanz oder eine dedizierte Instanz handelt.</block>
   <block id="afea36f2c9999a231c58b7e9dcf3b16e" category="list-text">Cloud Volumes ONTAP kann auf einer reservierten oder On-Demand-EC2-Instanz ausgeführt werden. Lösungen, die andere Instanztypen nutzen, werden nicht unterstützt.</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">Unterstützte Regionen</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="paragraph">Informationen zu regionalen Support für AWS finden Sie unter<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="c28d38eab2723d5b03a4a9a583f5c81e" category="summary">Diese bekannten Einschränkungen betreffen Cloud Volumes ONTAP in Amazon Web Services.</block>
   <block id="65a320b4c12bea4be3d7391ed581adef" category="doc">Bekannte Einschränkungen in AWS</block>
   <block id="66c8008cfff39be32e25f6351f5b9375" category="paragraph">Die folgenden bekannten Einschränkungen betreffen Cloud Volumes ONTAP in Amazon Web Services. Schauen Sie sich das auch einmal an <block ref="edcf15b4d9d7d1e018ccca7ce112dd3e" category="inline-link-macro-rx"></block>.</block>
@@ -652,7 +649,6 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="c0f95d0d2e06eba7eb0522dabf1c9d76" category="paragraph">Umgekehrt können Sie bei einer Implementierung von Cloud Volumes ONTAP auf einen VM-Typ nicht zu einem VM-Typ wechseln, der eine Ultra SSD für VNVRAM verwendet. Beispielsweise können Sie nicht von E8s_v3 zu E8ds_v4 ändern.</block>
   <block id="9655d27d34aaf491a4183d57c0530647" category="list-text">Eine hohe Schreibgeschwindigkeit wird bei allen Instanztypen unterstützt, wenn ein System mit einem einzelnen Node verwendet wird. Sie können hohe Schreibgeschwindigkeit von BlueXP während der Bereitstellung oder jederzeit danach aktivieren.<block ref="721fe5ee3bbc3d8295d8615ed77ff9be" category="inline-link-rx"></block>.</block>
   <block id="5063d3259058d90bbca06465957626d7" category="list-text">Bei Verwendung von SSDs ist die verbesserte Schreib-Performance aktiviert.</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Informationen zur regionalen Unterstützung für Azure finden Sie unter<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="f358bc744fba7780236855c1c4777b38" category="list-text">Implementierungen mit einem Node unterstützen nur lokal über LRS gemanagte Festplatten (Redundant Storage) für Standard-SSD, -HDD und Premium-SSD.</block>
   <block id="2eacfdd792ca3ab121472c95654b43ec" category="paragraph">Sie können eine der folgenden Konfigurationen wählen, wenn Sie Cloud Volumes ONTAP als HA-Paar in Azure implementieren.</block>
   <block id="b80fdfea42d505d96700af73261164a3" category="section-title">HA-Paare mit Seite Blob</block>
@@ -728,4 +724,8 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="57bbee64b9a570cce6aed56f532a26d4" category="doc">Versionshinweise zu Cloud Volumes ONTAP 9.14.0</block>
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Beschränkungen bei der Verwendung von Azure VM-Erweiterungen</block>
   <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP unterstützt in einer Implementierung keine Erweiterungen für Azure Virtual Machine (VM) und VM-Applikationen. Die Verwendung von Cloud Volumes ONTAP in Azure mit VM-Erweiterungen führt zu Verzögerungen bei Operationen, und NetApp empfiehlt, diese zu vermeiden.</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="paragraph">Informationen zur Unterstützung der AWS Region finden Sie unter<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Informationen zur Unterstützung von Azure-Regionen finden Sie unter<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="ef9be83cb59b0572a3581a6724316e48" category="list-text">Informationen zur regionalen Unterstützung von Google Cloud Platform finden Sie unter<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="d798d4963d0ac509a1bda5483d9b9a52" category="paragraph"><block ref="5a94f18247116693735ff13d8eeaa964" category="inline-link-rx"></block>.</block>
 </blocks>

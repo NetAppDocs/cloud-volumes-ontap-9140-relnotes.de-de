@@ -145,7 +145,7 @@ Umgekehrt können Sie bei einer Implementierung von Cloud Volumes ONTAP auf eine
 
 . Eine hohe Schreibgeschwindigkeit wird bei allen Instanztypen unterstützt, wenn ein System mit einem einzelnen Node verwendet wird. Sie können hohe Schreibgeschwindigkeit von BlueXP während der Bereitstellung oder jederzeit danach aktivieren. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-write-speed.html["Erfahren Sie mehr über die Auswahl einer Schreibgeschwindigkeit"^].
 . Bei Verwendung von SSDs ist die verbesserte Schreib-Performance aktiviert.
-. Informationen zur regionalen Unterstützung für Azure finden Sie unter https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes Regionen Weltweit"^].
+. Informationen zur Unterstützung von Azure-Regionen finden Sie unter https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes Regionen Weltweit"^].
 . Cloud Volumes ONTAP kann auf einer reservierten oder On-Demand-VM-Instanz beim Cloud-Provider ausgeführt werden. Lösungen, die andere VM-Instanztypen nutzen, werden nicht unterstützt.
 . Implementierungen mit einem Node unterstützen nur lokal über LRS gemanagte Festplatten (Redundant Storage) für Standard-SSD, -HDD und Premium-SSD.
 
